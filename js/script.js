@@ -33,13 +33,13 @@ const setBgGreet = () => {
 
   if (hour < 12) {
     document.body.style.backgroundImage = "url('./img/morning.jpg')";
-    greeting.textContent = "Доброе утро";
+    greeting.textContent = "Доброе утро,";
   } else if (hour < 18) {
     document.body.style.backgroundImage = "url('./img/afternoon.jpg')";
-    greeting.textContent = "Добрый день";
+    greeting.textContent = "Добрый день,";
   } else {
     document.body.style.backgroundImage = "url('./img/night.jpg')";
-    greeting.textContent = "Добрый вечер";
+    greeting.textContent = "Добрый вечер,";
     document.body.style.color = "white";
   }
 };
