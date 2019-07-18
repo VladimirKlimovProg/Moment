@@ -46,7 +46,7 @@ const setBgGreet = () => {
 
 const getName = () => {
   if (localStorage.getItem("name") === null) {
-    name.textContent = "[Enter Name]";
+    name.textContent = "[Введите имя]";
   } else {
     name.textContent = localStorage.getItem("name");
   }
@@ -65,7 +65,7 @@ const setName = e => {
 
 const getFocus = () => {
   if (localStorage.getItem("focus") === null) {
-    focus.textContent = "[Enter Focus]";
+    focus.textContent = "[Введите цель]";
   } else {
     focus.textContent = localStorage.getItem("focus");
   }
